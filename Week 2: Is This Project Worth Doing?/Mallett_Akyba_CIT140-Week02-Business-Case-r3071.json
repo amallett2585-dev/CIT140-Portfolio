@@ -1,0 +1,129 @@
+{
+  "format": "command-nexus-weekly-report",
+  "schemaVersion": 1,
+  "courseId": "CIT140",
+  "week": 2,
+  "assignmentId": "CIT140-W02-BUSINESS-CASE",
+  "artifactType": "business-case-recommendation",
+  "caseId": "meridian-forge",
+  "reportId": "a7be7ced-890d-4237-be0a-12529772842e",
+  "revision": 3071,
+  "createdAt": "2026-09-24T02:05:15.843Z",
+  "exportedAt": "2026-09-24T03:46:49.615Z",
+  "learnerLabel": "QA Control Review Business Case",
+  "contentStatus": "complete-fields",
+  "sections": [
+    {
+      "id": "project",
+      "title": "Proposed project",
+      "value": "QA Control Review for cell MR-17"
+    },
+    {
+      "id": "need",
+      "title": "Business need",
+      "value": "MR-17 is down due to command authorization and retired test control issues. Clear records are needed to control procedures and preserve evidence for future decisions."
+    },
+    {
+      "id": "value",
+      "title": "Expected value and beneficiaries",
+      "value": "-QA, Engineering, and Production Operations\n-The review gives QA and Engineering a traceable record they can use to investigate further, and give Operations a solid reason to ask for future fixes. It wont fix the robot right now. but it makes sure future decisions are backed by evidence"
+    },
+    {
+      "id": "scopeIn",
+      "title": "Included work",
+      "value": "Reviewing command ownership, managing retired tests, starting up evidence preservation, and delivering a final QA report to Operations,   QA, and engineering"
+    },
+    {
+      "id": "scopeOut",
+      "title": "Excluded work",
+      "value": "The review does not authorize a restart, software changes, altered original records, a replacement robot, or a vendor choice. "
+    },
+    {
+      "id": "technical",
+      "title": "Technical feasibility",
+      "value": "Yes, read only exports and current tools support the review. W02-S04, staff only need read only access to command log exports."
+    },
+    {
+      "id": "operational",
+      "title": "Operational feasibility",
+      "value": "Record custodians, QA Engineering, and Operations staff will need to confirm their availability to ensure they can fit locating, reviewing, and receiving these records around their duties."
+    },
+    {
+      "id": "resources",
+      "title": "Cost and resource feasibility",
+      "value": "Base cost of $2,820 fits under the $3,000 limit, but the range of $2,350-$3,525 could exceed it if costs rise (W02-S05)\nSoftware changes, new equipment, and vendors are excluded."
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule feasibility",
+      "value": "8- business day plan fits within the 10-day limit, but the 48 total staff hours represent total effort across teams, not 48 elapsed hours. Engineering work cannot start until day 4 because it depends on receiving the data exports scheduled for days 1-3 "
+    },
+    {
+      "id": "constraints",
+      "title": "Known constraints",
+      "value": "Budget limit - $3,000 Max\nSchedule Limit - 10 Business day Max\nAccess & Safety - Read only data access/ MR-17 stays powered off w/no software edits or physical test allowed "
+    },
+    {
+      "id": "risks",
+      "title": "Risks and assumptions",
+      "value": "- Data exports from records custodians will arrive on schedule by day 3 \n- Late exports or QA shift reassignments would delay Engineering start date on day 4 and risk pushing the project beyond the 10 business day limit \n- Elias, Robotics systems engineer & Records custodian lead should verify export timelines before work begins"
+    },
+    {
+      "id": "success",
+      "title": "Success measures and evidence",
+      "value": "Delivery is checked by making sure Nia and Elias review all 3 deliverables. Value is based on the measured baseline of 6 retrieval request taking 60 mins total, while any future time savings are just targets that need to be measured. "
+    },
+    {
+      "id": "recommendation",
+      "title": "Recommendation",
+      "value": "proceed"
+    },
+    {
+      "id": "rationale",
+      "title": "Rationale and conditions",
+      "value": "The review fits within the $3,000 and 10 day limit (SRC-01). It gives QA and Engineering clear records to find root causes and gives Operations a solid basis to request future work (SRC-02). This does not guarantee fixing the robot right now."
+    },
+    {
+      "id": "nextStep",
+      "title": "Next authorization or information step",
+      "value": "The sponsor should make the final decision to authorize the project. Before starting, Elias and the records custodian lead must confirm export schedules and team availability. "
+    }
+  ],
+  "sources": [
+    {
+      "id": "W02-S01",
+      "title": "Request for a bounded review",
+      "locator": "Week 2 decision packet · W02-S01"
+    },
+    {
+      "id": "W02-S02",
+      "title": "Evidence-retrieval workload",
+      "locator": "Week 2 decision packet · W02-S02"
+    },
+    {
+      "id": "W02-S03",
+      "title": "Proposed scope and current workflow",
+      "locator": "Week 2 decision packet · W02-S03"
+    },
+    {
+      "id": "W02-S04",
+      "title": "Capacity, access and operating limits",
+      "locator": "Week 2 decision packet · W02-S04"
+    },
+    {
+      "id": "W02-S05",
+      "title": "Estimate and success-measure sheet",
+      "locator": "Week 2 decision packet · W02-S05"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "repository-check",
+      "filename": "Week02_Repository_Check.png",
+      "kind": "supporting-evidence",
+      "caption": "Required Week 2 repository screenshot; supply the actual file separately. This reference does not verify an upload.",
+      "sourceIds": []
+    }
+  ],
+  "relatedReportIds": []
+}
